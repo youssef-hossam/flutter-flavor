@@ -11,4 +11,7 @@ enum Environment {
 
   /// to be used when deployed as production
   production,
+
+  /// to be used when deployed as B2B
+  B2B,
 }
