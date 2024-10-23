@@ -69,4 +69,7 @@ class Flavor {
 
   /// Check if the current flavor is the production flavor
   bool get isProduction => environment == Environment.production;
+
+    /// Check if the current flavor is the P2P flavor
+  bool get isB2B => environment == Environment.B2B;
 }
